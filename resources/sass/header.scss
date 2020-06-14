@@ -1,0 +1,34 @@
+#header-sup {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  nav {
+    width: 80%;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      li {
+        list-style-type: none;
+        font-size: 20px;
+        a {
+          text-decoration: none;
+          color: crimson;
+        }
+      }
+    }
+  }
+}
+#header-inf {
+  display: flex;
+  justify-content: flex-end;
+  background: crimson;
+  position: relative;
+  padding-right: 20px;
+  #pacco-spaghetti {
+    transform: rotate(90deg);
+    position: absolute;
+    top: -80px;
+    left: 20px;
+    height: 250px;
+  }
+}

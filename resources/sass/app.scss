@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  background: beige;
+  @import 'header';
+}
+
+main {
+  @import 'main';
+  background-image: url('/img/background-main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+
+footer {
+  background: beige;
+  padding: 40px;
+  @import 'footer';
+}
